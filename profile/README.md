@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="clagentic-logo-256.png" alt="clagentic" width="96" />
+  <img src="https://raw.githubusercontent.com/clagentic/.github/main/profile/clagentic-logo-256.png" alt="clagentic" width="96" />
 </p>
 
 <h2 align="center">clagentic</h2>
