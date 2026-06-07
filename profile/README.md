@@ -28,6 +28,7 @@ The full index is at **[clagentic.ai/tools](https://clagentic.ai/tools)**.
 | [clagentic:lite](https://github.com/clagentic/clagentic-lite) | Cross-vendor coding harness — Builder/Reviewer roles, security gates, SQLite audit trail. No server |
 | [clagentic:gatekeeper](https://github.com/clagentic/clagentic-gatekeeper) | Role-scoped GitHub App tokens for automated agents — builder, reviewer, merger |
 | [clagentic:triage](https://github.com/clagentic/clagentic-triage) | LLM-powered triage agent for GitHub issues and PRs |
+| [clagentic:directory](https://github.com/clagentic/clagentic-directory) | Agent capability registry — discover, resolve, and route to agents by capability |
 
 ## design principles
 
