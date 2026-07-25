@@ -1,0 +1,63 @@
+# .clagentic/loadout/config.yaml — clagentic-github (clagentic/.github)
+#
+# Repo-tier loadout config (see /workspace/clagentic-loadout/docs/provisioning.md,
+# "Merge-gate config homes" section). This repo is flat and docs-only
+# (profile/README.md + a logo png, plus the .crew/ crew-config onboarded in
+# lr-7a40a8) — nothing to build or deploy, and no CI workflows exist.
+
+# ---------------------------------------------------------------------------
+# roles: -- which loadout verbs each ROLE may invoke (docs/provisioning.md
+# "Step 1 -- declare the role's verb set"). Kept as the starter's role-keyed
+# vocabulary, matching clagentic-console's shape.
+# ---------------------------------------------------------------------------
+roles:
+  builder:
+    - push
+  reviewer:
+    - git-host-api
+    - review-post
+    - stage-body
+  merger:
+    - merge
+    - push
+    - release-dispatch
+    - release-detect
+  lead:
+    - git-host-api
+
+# ---------------------------------------------------------------------------
+# merge: -- merge-gate declarations (docs/provisioning.md "Merge-gate config
+# homes"). Every key here is REPO-TIER policy (never an identity/login/
+# credential -- those live in the deployment-tier user config instead).
+# ---------------------------------------------------------------------------
+merge:
+  merge_requirements:
+    # ci_pass: false -- this repo has no CI workflows (no .github/workflows
+    # in tree; confirmed no test suite). Matches clagentic-directory and
+    # clagentic-lite. tests_pass is intentionally left unset -- no test
+    # suite exists, so the template default is kept rather than asserting
+    # a suite that isn't there.
+    ci_pass: false
+
+  # required_reviewer_roles: ROLE names, not agent names (clagentic-lite's
+  # [peaches, bobbie] list is wrong per the loadout-init role-vocabulary
+  # rule, tracked as lr-638945 in clagentic-loadout -- do not copy that
+  # pattern here). security is explicitly included per operator directive
+  # 2026-07-25.
+  required_reviewer_roles:
+    - reviewer
+    - security
+
+  # authorized_roles: roles permitted to hold merge authority.
+  authorized_roles:
+    - merger
+
+  # pre_checks: omitted -- nothing to validate in a docs-only repo.
+
+  # post_merge_steps: omitted entirely -- GitHub renders profile/README.md
+  # directly; there is nothing to build or deploy here. Do not copy another
+  # deployment's post_merge_steps, HOME=, or forge URL into this file.
+  # post_merge_steps:
+  #   - cmd: "scripts/install.sh"
+  #     description: "self-install the merged build"
+  #     on_failure: fail
