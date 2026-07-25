@@ -74,7 +74,9 @@ scope:
   #   - ".secrets/**"
   #   - "production/**"
   #   - "config/prod.yaml"
-  blocked_paths: []
+  blocked_paths:
+    - ".crew/**"
+    - ".clagentic/loadout/**"
 
 # OPTION B — explicit allowlist (use for projects where only specific
 #   paths should be touched automatically)

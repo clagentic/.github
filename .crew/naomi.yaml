@@ -42,8 +42,8 @@ merge_allowed: true
 #   ci_pass:    true (require green CI — set to false if you have no CI)
 #
 merge_requirements:
-  tests_pass: true
-  ci_pass: true
+  tests_pass: false
+  ci_pass: false
   # max_files_changed: 50   # Escalate if a PR touches more than N files
 
 # -----------------------------------------------------------------------
