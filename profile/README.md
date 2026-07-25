@@ -23,12 +23,13 @@ The full index is at **[clagentic.ai/tools](https://clagentic.ai/tools)**.
 
 | Tool | What it does |
 |---|---|
-| [clagentic:console](https://github.com/clagentic/clagentic-console) | Self-hosted browser console for Claude Code and Codex — tool approvals, sessions, push notifications, from any device |
-| [clagentic:router](https://github.com/clagentic/clagentic-router) | Self-hosted LLM routing daemon — fallback chains, quota tracking, OpenAI-compatible API |
-| [clagentic:lite](https://github.com/clagentic/clagentic-lite) | Cross-vendor coding harness — Builder/Reviewer roles, security gates, SQLite audit trail. No server |
-| [clagentic:gatekeeper](https://github.com/clagentic/clagentic-gatekeeper) | Role-scoped GitHub App tokens for automated agents — builder, reviewer, merger |
-| [clagentic:triage](https://github.com/clagentic/clagentic-triage) | LLM-powered triage agent for GitHub issues and PRs |
-| [clagentic:directory](https://github.com/clagentic/clagentic-directory) | Agent capability registry — discover, resolve, and route to agents by capability |
+| [clagentic: console](https://github.com/clagentic/clagentic-console) | Self-hosted browser console for Claude Code and Codex — tool approvals, sessions, push notifications, from any device |
+| [clagentic: router](https://github.com/clagentic/clagentic-router) | Self-hosted LLM routing daemon — fallback chains, quota tracking, OpenAI-compatible API |
+| [clagentic: lite](https://github.com/clagentic/clagentic-lite) | Cross-vendor coding harness — Builder/Reviewer roles, security gates, SQLite audit trail. No server |
+| [clagentic: gatekeeper](https://github.com/clagentic/clagentic-gatekeeper) | Role-scoped GitHub App tokens for automated agents — builder, reviewer, merger |
+| [clagentic: triage](https://github.com/clagentic/clagentic-triage) | LLM-powered triage agent for GitHub issues and PRs |
+| [clagentic: directory](https://github.com/clagentic/clagentic-directory) | Agent capability registry — discover, resolve, and route to agents by capability |
+| [clagentic: loadout](https://github.com/clagentic/clagentic-loadout) | Role-scoped agent tooling — per-use credentials, attested identity, and a merge gate nothing lands without |
 
 ## design principles
 
