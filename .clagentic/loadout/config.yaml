@@ -17,6 +17,9 @@ roles:
     - git-host-api
     - review-post
     - stage-body
+  security:
+    - git-host-api
+    - review-post
   merger:
     - merge
     - push
