@@ -2,11 +2,9 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/clagentic/.github/main/profile/clagentic-wordmark-dark.png" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/clagentic/.github/main/profile/clagentic-wordmark-light.png" />
-    <img src="https://raw.githubusercontent.com/clagentic/.github/main/profile/clagentic-wordmark-light.png" alt="clagentic" width="360" />
+    <img src="https://raw.githubusercontent.com/clagentic/.github/main/profile/clagentic-wordmark-light.png" alt="clagentic" width="278" />
   </picture>
 </p>
-
-<h5 align="center">clagentic</h5>
 
 <h4 align="center">AI tooling. Built for builders.</h4>
 
