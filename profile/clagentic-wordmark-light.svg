@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 112" width="560" height="112">
+  <!-- For display on a LIGHT background (GitHub light theme). Text fill is a dark ink. -->
+  <defs>
+    <linearGradient id="grad-light" gradientUnits="userSpaceOnUse" x1="56" y1="8" x2="56" y2="104">
+      <stop offset="0%"   stop-color="#00CFFF"/>
+      <stop offset="45%"  stop-color="#4A7FE8"/>
+      <stop offset="100%" stop-color="#7B3FE4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- C-mark stands in for the "C" of "clagentic" -->
+  <!-- OUTER r=44 -->
+  <path d="M 92.04 81.24 A 44 44 0 0 1 27.72 89.71" fill="none" stroke="url(#grad-light)" stroke-width="7.5" stroke-linecap="round"/>
+  <circle cx="92.04" cy="81.24" r="3.2" fill="url(#grad-light)"/>
+  <path d="M 17.89 78.00 A 44 44 0 0 1 27.72 22.29" fill="none" stroke="url(#grad-light)" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M 42.40 14.15 A 44 44 0 0 1 92.04 30.76" fill="none" stroke="url(#grad-light)" stroke-width="7.5" stroke-linecap="round"/>
+  <circle cx="92.04" cy="30.76" r="3.2" fill="url(#grad-light)"/>
+  <!-- INNER r=34 -->
+  <path d="M 83.85 75.50 A 34 34 0 0 1 24.05 67.63" fill="none" stroke="url(#grad-light)" stroke-width="7.5" stroke-linecap="round"/>
+  <circle cx="83.85" cy="75.50" r="3.2" fill="url(#grad-light)"/>
+  <path d="M 22.02 54.81 A 34 34 0 0 1 51.27 22.33" fill="none" stroke="url(#grad-light)" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M 63.07 22.74 A 34 34 0 0 1 83.85 36.50" fill="none" stroke="url(#grad-light)" stroke-width="7.5" stroke-linecap="round"/>
+  <circle cx="83.85" cy="36.50" r="3.2" fill="url(#grad-light)"/>
+
+  <!-- "lagentic" continues the word, DM Sans 500, baseline aligned to the ring's optical base -->
+  <text x="101" y="86" font-family="'DM Sans', system-ui, -apple-system, sans-serif" font-weight="500" font-size="80" fill="#0D1017">lagentic</text>
+
+</svg>
